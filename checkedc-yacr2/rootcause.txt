@@ -1,0 +1,229 @@
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/channel.c:117:62: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("\tChannel file description invalid at line %d.\n", line);
+                                                                   ~~      ^~~~
+                                                                   %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/channel.c:221:66: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                    printf("\tChannel file description invalid at line %d.\n", line);
+                                                                       ~~      ^~~~
+                                                                       %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/channel.c:238:62: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("\tChannel file description invalid at line %d.\n", line);
+                                                                   ~~      ^~~~
+                                                                   %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/hcg.c:125:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\n", net);
+                 ~~      ^~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/hcg.c:127:20: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+            printf("%d ", HCG[net].netsHook[which]);
+                    ~~    ^~~~~~~~~~~~~~~~~~~~~~~~
+                    %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:200:18: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf( " %d ", TOP[x]/100);
+                  ~~    ^~~~~~~~~~
+                  %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:206:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", (TOP[x] - (TOP[x]/100)*100)/10);
+                 ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:212:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", TOP[x] % 10);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:231:24: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("Track %3d: ", y);
+                      ~~~     ^
+                      %3lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:283:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", BOT[x]/100);
+                 ~~    ^~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:289:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", (BOT[x] - (BOT[x]/100)*100)/10);
+                 ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:295:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf(" %d ", BOT[x] % 10);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:315:5: warning: implicitly declaring library function 'bzero' with type 'void (void *, unsigned long)' [-Wimplicit-function-declaration]
+    bzero(horzPlane,
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:315:5: note: include the header <strings.h> or explicitly provide a declaration for 'bzero'
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:166:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\n", net);
+                 ~~      ^~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:171:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", VCG[net].netsAboveHook[which].bot);
+                        ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:180:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", VCG[net].netsBelowHook[which].top);
+                        ~~    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:356:19: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("[%d]\t", scc);
+                 ~~      ^~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:359:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+                printf("%d ", net);
+                        ~~    ^~~
+                        %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:362:17: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("<%d>", perSCC[scc]);
+                 ~~    ^~~~~~~~~~~
+                 %lu
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:496:40: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+        printf("*** VC's removed (%d) ***\n", total);
+                                  ~~          ^~~~~
+                                  %lu
+[-] Array variable length not found:assign
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:17:
+/usr/include/stdio.h:178:12: warning: Root cause for 2 unchecked pointers: Declaration in non-writable file
+extern int fclose (FILE *__stream);
+           ^
+/usr/include/stdio.h:258:14: warning: Root cause for 3 unchecked pointers: Declaration in non-writable file
+extern FILE *fopen (const char *__restrict __filename,
+             ^
+/usr/include/stdio.h:415:12: warning: Root cause for 2 unchecked pointers: Declaration in non-writable file
+extern int fscanf (FILE *__restrict __stream,
+           ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:18:
+/usr/include/stdlib.h:555:25: warning: Root cause for 44 unchecked pointers: Default void* type
+extern void free (void *__ptr) __THROW;
+                        ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:21:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.h:49:12: warning: Root cause for 5 unchecked pointers: Assigning from:1 depth pointer to 2 depth pointer.
+long * *                        costMatrix;
+                                ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:21:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.h:15:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.h:72:24: warning: Root cause for 10 unchecked pointers: Assigning from:1 depth pointer to 2 depth pointer.
+constraintVCGType * *           removeVCG;
+                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:67:7: warning: Root cause for 5 unchecked pointers: Default void* type
+        free(costMatrix[net]);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:69:10: warning: Root cause for 0 unchecked pointers: Default void* type
+    free(costMatrix);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:74:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(tracksNotPref);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:75:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(tracksTopNotPref);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:76:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(tracksBotNotPref);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:77:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(tracksNoHCV);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:78:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(tracksAssign);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:79:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(netsAssign);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/assign.c:80:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(netsAssignCopy);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/hcg.c:43:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(HCG);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/hcg.c:44:10: warning: Root cause for 5 unchecked pointers: Default void* type
+    free(storageRootHCG);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/main.c:37:12: warning: Root cause for 4 unchecked pointers: Bad pointer type solution
+     char *argv[])
+           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:52:25: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    horzPlane = (char *)malloc((channelColumns+1)*(channelTracks+3));
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:53:25: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    vertPlane = (char *)malloc((channelColumns+1)*(channelTracks+3));
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:54:24: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    viaPlane = (char *)malloc((channelColumns+1)*(channelTracks+3));
+                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:55:25: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    mazeRoute = (char *)malloc((channelColumns+1));
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:70:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(horzPlane);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:71:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(vertPlane);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:72:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(viaPlane);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:73:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(mazeRoute);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:315:11: warning: Root cause for 1 unchecked pointer: Default void* type
+    bzero(horzPlane,
+          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:317:11: warning: Root cause for 1 unchecked pointer: Default void* type
+    bzero(vertPlane,
+          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:319:11: warning: Root cause for 1 unchecked pointer: Default void* type
+    bzero(viaPlane,
+          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/maze.c:321:11: warning: Root cause for 1 unchecked pointer: Default void* type
+    bzero(mazeRoute,
+          ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/option.c:8:
+In file included from /usr/include/string.h:462:
+/usr/include/strings.h:42:26: warning: Root cause for 5 unchecked pointers: Default void* type
+extern void bzero (void *__s, size_t __n) __THROW __nonnull ((1));
+                         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/option.c:32:14: warning: Root cause for 3 unchecked pointers: Bad pointer type solution
+       char *argv[])
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:48:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(VCG);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:49:10: warning: Root cause for 8 unchecked pointers: Default void* type
+    free(storageRootVCG);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:51:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(SCC);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:52:10: warning: Root cause for 2 unchecked pointers: Default void* type
+    free(perSCC);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Ptrdist/checkedc-yacr2/vcg.c:53:10: warning: Root cause for 0 unchecked pointers: Default void* type
+    free(removeVCG);
+         ^
+Summary
+TotalConstraints|TotalPtrs|TotalNTArr|TotalArr|TotalWild
+157|47|0|53|57
+NumPointersNeedBounds:90,
+NumNTNoBounds:0,
+Details:
+Invalid:0
+,BoundsFound:
+Array Bounds Inference Stats:
+NamePrefixMatch:0
+AllocatorMatch:0
+VariableNameMatch:0
+NeighbourParamMatch:1
+DataflowMatch:15
+Declared:0
+DeclaredButNotHandled:0
+TimeStats
+TotalTime:2.521807e+00
+ConstraintBuilderTime:9.312230e-01
+ConstraintSolverTime:1.060150e-01
+ArrayBoundsInferenceTime:1.005420e-01
+RewritingTime:2.945020e-01
+ReWriteStats
+NumAssumeBoundsCasts:73
+NumCheckedCasts:0
+NumWildCasts:0
+NumFixedCasts:6
+NumITypes:0
+NumCheckedRegions:0
+NumUnCheckedRegions:0

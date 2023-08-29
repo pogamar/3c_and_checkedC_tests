@@ -1,0 +1,99 @@
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:33:27: warning: cast to smaller integer type 'unsigned int' from 'Vertex' (aka 'struct vert_st *') [-Wpointer-to-int-cast]
+  dist = (int) HashLookup((unsigned int) inserted, hash);
+                          ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:33:10: warning: cast to smaller integer type 'int' from 'void *' [-Wvoid-pointer-to-int-cast]
+  dist = (int) HashLookup((unsigned int) inserted, hash);
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:61:35: warning: cast to smaller integer type 'unsigned int' from 'Vertex' (aka 'struct vert_st *') [-Wpointer-to-int-cast]
+          dist = (int) HashLookup((unsigned int) inserted, hash);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:61:18: warning: cast to smaller integer type 'int' from 'void *' [-Wvoid-pointer-to-int-cast]
+          dist = (int) HashLookup((unsigned int) inserted, hash);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/makegraph.c:67:26: warning: cast to 'void *' from smaller integer type 'int' [-Wint-to-void-pointer-cast]
+              HashInsert((void *) dist,(unsigned int) dest,hash);
+                         ^~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/makegraph.c:67:40: warning: cast to smaller integer type 'unsigned int' from 'Vertex' (aka 'struct vert_st *') [-Wpointer-to-int-cast]
+              HashInsert((void *) dist,(unsigned int) dest,hash);
+                                       ^~~~~~~~~~~~~~~~~~~
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/args.c:3:29: warning: Root cause for 1 unchecked pointer: Unchecked pointer in parameter or return of external function atoi
+extern int atoi(const char *);
+                            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/args.c:7:34: warning: Root cause for 1 unchecked pointer: Bad pointer type solution
+int dealwithargs(int argc, char *argv[]) {
+                                 ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:3:
+/usr/include/stdlib.h:105:12: warning: Root cause for 2 unchecked pointers: Declaration in non-writable file
+extern int atoi (const char *__nptr)
+           ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:4:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.h:7:9: warning: Root cause for 3 unchecked pointers: Default void* type
+  void *entry;
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.h:9:4: warning: Root cause for 6 unchecked pointers: Unable to rewrite a typedef with multiple names
+} *HashEntry;
+   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.h:15:4: warning: Root cause for 12 unchecked pointers: Unable to rewrite a typedef with multiple names
+} *Hash;
+   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:43:7: warning: Root cause for 3 unchecked pointers: Default void* type
+void *HashLookup(unsigned int key, Hash hash)
+      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:59:23: warning: Root cause for 3 unchecked pointers: Default void* type
+void HashInsert(void *entry,unsigned int key,Hash hash) 
+                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:17:23: warning: Root cause for 3 unchecked pointers: Unsafe call to allocator function.
+      temp = (char *) malloc(32768);
+                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:35:33: warning: Root cause for 0 unchecked pointers: Assigning from:2 depth pointer to 1 depth pointer.
+  retval->array = (HashEntry *) localmalloc(size*sizeof(HashEntry));
+                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:35:19: warning: Root cause for 6 unchecked pointers: Cast from char * to HashEntry *
+  retval->array = (HashEntry *) localmalloc(size*sizeof(HashEntry));
+                  ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/hash.c:56:10: warning: Root cause for 3 unchecked pointers: Default void* type
+  return NULL;
+         ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:3:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/mst.h:14:4: warning: Root cause for 18 unchecked pointers: Unable to rewrite a typedef with multiple names
+} *Vertex;
+   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/mst.h:18:4: warning: Root cause for 6 unchecked pointers: Unable to rewrite a typedef with multiple names
+} *Graph;
+   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/main.c:137:26: warning: Root cause for 2 unchecked pointers: Bad pointer type solution
+int main(int argc, char *argv[]) 
+                         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/test-suite-master/test-suite-master/MultiSource/Benchmarks/Olden/checkedc-mst/makegraph.c:67:26: warning: Root cause for 0 unchecked pointers: Default void* type
+              HashInsert((void *) dist,(unsigned int) dest,hash);
+                         ^
+Summary
+TotalConstraints|TotalPtrs|TotalNTArr|TotalArr|TotalWild
+62|3|0|4|55
+NumPointersNeedBounds:4,
+NumNTNoBounds:0,
+Details:
+Invalid:0
+,BoundsFound:
+Array Bounds Inference Stats:
+NamePrefixMatch:0
+AllocatorMatch:0
+VariableNameMatch:0
+NeighbourParamMatch:0
+DataflowMatch:1
+Declared:2
+DeclaredButNotHandled:0
+TimeStats
+TotalTime:7.689720e-01
+ConstraintBuilderTime:1.324950e-01
+ConstraintSolverTime:3.511500e-02
+ArrayBoundsInferenceTime:2.273300e-02
+RewritingTime:8.539700e-02
+ReWriteStats
+NumAssumeBoundsCasts:0
+NumCheckedCasts:0
+NumWildCasts:0
+NumFixedCasts:0
+NumITypes:1
+NumCheckedRegions:0
+NumUnCheckedRegions:0

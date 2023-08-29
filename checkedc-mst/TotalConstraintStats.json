@@ -1,0 +1,15 @@
+{"Stats":{"ConstraintStats":{"Individual":[{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/args.c":{"constraints":3,"ptr":0,"ntarr":0,"arr":1,"wild":2}},
+{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/hash.c":{"constraints":16,"ptr":1,"ntarr":0,"arr":0,"wild":15}},
+{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/hash.h":{"constraints":12,"ptr":2,"ntarr":0,"arr":0,"wild":10}},
+{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/main.c":{"constraints":15,"ptr":0,"ntarr":0,"arr":1,"wild":14}},
+{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/makegraph.c":{"constraints":11,"ptr":0,"ntarr":0,"arr":1,"wild":10}},
+{"/mnt/d/PLT/Repos/3c_and_checkedC_tests/checkedc-mst/mst.h":{"constraints":5,"ptr":0,"ntarr":0,"arr":1,"wild":4}}],"Summary":{"TotalConstraints":62,"TotalPtrs":3,"TotalNTArr":0,"TotalArr":4,"TotalWild":55}},
+"BoundsStats":{"NumPointersNeedBounds":4,"NumNTNoBounds":0,"Details":{"Invalid":0,"BoundsFound":{"ArrayBoundsInferenceStats":{"NamePrefixMatch":0,
+"AllocatorMatch":0,
+"VariableNameMatch":0,
+"NeighbourParamMatch":0,
+"DataflowMatch":1,
+"Declared":2,
+"DeclaredButNotHandled":0
+}}}},"PerformanceStats":[{"TimeStats": {"TotalTime":8.386880e-01, "ConstraintBuilderTime":1.425600e-01, "ConstraintSolverTime":4.044300e-02, "ArrayBoundsInferenceTime":2.537700e-02, "RewritingTime":9.464700e-02}},
+{"ReWriteStats":{"NumAssumeBoundsCasts":0, "NumCheckedCasts":0, "NumWildCasts":0, "NumFixedCasts":0, "NumITypes":1, "NumCheckedRegions":0, "NumUnCheckedRegions":0}}]}}
