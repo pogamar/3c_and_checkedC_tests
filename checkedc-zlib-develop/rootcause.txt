@@ -1,0 +1,708 @@
+[-] Array variable length not found:dest
+[-] Array variable length not found:dest
+[-] Array variable length not found:mode
+[-] Array variable length not found:mode
+[-] Array variable length not found:version
+[-] Array variable length not found:version
+[-] Array variable length not found:bl_count
+[-] Array variable length not found:bl_count
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c:8:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:22:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:34:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zconf.h:494:
+/usr/include/unistd.h:378:45: warning: Root cause for 206 unchecked pointers: Default void* type
+extern ssize_t write (int __fd, const void *__buf, size_t __n) __wur
+                                            ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c:8:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:22:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:98:16: warning: Root cause for 206 unchecked pointers: Default void* type
+    alloc_func zalloc;  /* used to allocate the internal state */
+               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:99:16: warning: Root cause for 206 unchecked pointers: Default void* type
+    free_func  zfree;   /* used to free the internal state */
+               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:100:16: warning: Root cause for 206 unchecked pointers: Default void* type
+    voidpf     opaque;  /* private data object passed to zalloc and zfree */
+               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1102:41: warning: Root cause for 3 unchecked pointers: Default void* type
+                                in_func in, void FAR *in_desc,
+                                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1103:42: warning: Root cause for 3 unchecked pointers: Default void* type
+                                out_func out, void FAR *out_desc);
+                                         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1395:47: warning: Root cause for 206 unchecked pointers: Default void* type
+ZEXTERN int ZEXPORT gzread(gzFile file, voidp buf, unsigned len);
+                                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1425:40: warning: Root cause for 206 unchecked pointers: Default void* type
+ZEXTERN z_size_t ZEXPORT gzfread(voidp buf, z_size_t size, z_size_t nitems,
+                                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1451:49: warning: Root cause for 21 unchecked pointers: Default void* type
+ZEXTERN int ZEXPORT gzwrite(gzFile file, voidpc buf, unsigned len);
+                                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zlib.h:1457:42: warning: Root cause for 21 unchecked pointers: Default void* type
+ZEXTERN z_size_t ZEXPORT gzfwrite(voidpc buf, z_size_t size,
+                                         ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c:8:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:28:
+/usr/include/string.h:43:39: warning: Root cause for 307 unchecked pointers: Default void* type
+extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+                                      ^
+/usr/include/string.h:43:70: warning: Root cause for 305 unchecked pointers: Default void* type
+extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+                                                                     ^
+/usr/include/string.h:61:28: warning: Root cause for 206 unchecked pointers: Default void* type
+extern void *memset (void *__s, int __c, size_t __n) __THROW __nonnull ((1));
+                           ^
+/usr/include/string.h:107:34: warning: Root cause for 206 unchecked pointers: Default void* type
+extern void *memchr (const void *__s, int __c, size_t __n)
+                                 ^
+/usr/include/string.h:407:15: warning: Root cause for 7 unchecked pointers: Declaration in non-writable file
+extern size_t strlen (const char *__s)
+              ^
+/usr/include/string.h:419:14: warning: Root cause for 5 unchecked pointers: Declaration in non-writable file
+extern char *strerror (int __errnum) __THROW;
+             ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c:8:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:29:
+/usr/include/stdlib.h:555:25: warning: Root cause for 206 unchecked pointers: Default void* type
+extern void free (void *__ptr) __THROW;
+                        ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c:8:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:261:40: warning: Root cause for 206 unchecked pointers: Default void* type
+   voidpf ZLIB_INTERNAL zcalloc(voidpf opaque, unsigned items,
+                                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:261:25: warning: Root cause for 206 unchecked pointers: Default void* type
+   voidpf ZLIB_INTERNAL zcalloc(voidpf opaque, unsigned items,
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:263:37: warning: Root cause for 206 unchecked pointers: Default void* type
+   void ZLIB_INTERNAL zcfree(voidpf opaque, voidpf ptr);
+                                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.h:263:52: warning: Root cause for 206 unchecked pointers: Default void* type
+   void ZLIB_INTERNAL zcfree(voidpf opaque, voidpf ptr);
+                                                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c:32:21: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.zalloc = (alloc_func)0;
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c:33:20: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.zfree = (free_func)0;
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c:34:21: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.opaque = (voidpf)0;
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c:724:17: warning: Root cause for 2 unchecked pointers: Cast from const unsigned char * to const z_word_t *
+        words = (z_word_t const *)buf;
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c:731:14: warning: Root cause for 0 unchecked pointers: Cast from unsigned int * to unsigned char *
+        if (*(unsigned char *)&endian) {
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c:986:15: warning: Root cause for 2 unchecked pointers: Cast from const z_word_t * to const unsigned char *
+        buf = (unsigned char const *)words;
+              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:226:13: warning: Root cause for 1 unchecked pointer: Default void* type
+    zmemcpy(buf, strm->next_in, len);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:226:18: warning: Root cause for 21 unchecked pointers: Default void* type
+    zmemcpy(buf, strm->next_in, len);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:279:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->window, s->window + wsize, (unsigned)wsize - more);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:279:32: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->window, s->window + wsize, (unsigned)wsize - more);
+                               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:350:13: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemzero(s->window + curr, (unsigned)init);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:361:13: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemzero(s->window + s->high_water, (unsigned)init);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:398:24: warning: Root cause for 206 unchecked pointers: Default void* type
+        strm->opaque = (voidpf)0;
+                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:567:13: warning: Root cause for 206 unchecked pointers: Cast from Posf * to Bytef *
+            CLEAR_HASH(s);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:622:17: warning: Root cause for 1 unchecked pointer: Default void* type
+        zmemcpy(dictionary, s->window + s->strstart + s->lookahead - len, len);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:622:29: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(dictionary, s->window + s->strstart + s->lookahead - len, len);
+                            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:670:5: warning: Root cause for 206 unchecked pointers: Cast from Posf * to Bytef *
+    CLEAR_HASH(s);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:771:17: warning: Root cause for 206 unchecked pointers: Cast from Posf * to Bytef *
+                CLEAR_HASH(s);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:912:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(strm->next_out, s->pending_out, len);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:912:29: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(strm->next_out, s->pending_out, len);
+                            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1076:25: warning: Root cause for 206 unchecked pointers: Default void* type
+                zmemcpy(s->pending_buf + s->pending,
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1077:25: warning: Root cause for 1 unchecked pointer: Default void* type
+                        s->gzhead->extra + s->gzindex, copy);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1089:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->pending_buf + s->pending,
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1090:21: warning: Root cause for 1 unchecked pointer: Default void* type
+                    s->gzhead->extra + s->gzindex, left);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1200:21: warning: Root cause for 206 unchecked pointers: Cast from Posf * to Bytef *
+                    CLEAR_HASH(s);             /* forget history */
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1254:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    TRY_FREE(strm, strm->state->pending_buf);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1255:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    TRY_FREE(strm, strm->state->head);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1256:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    TRY_FREE(strm, strm->state->prev);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1257:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    TRY_FREE(strm, strm->state->window);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1259:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    ZFREE(strm, strm->state);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1286:13: warning: Root cause for 95 unchecked pointers: Default void* type
+    zmemcpy((voidpf)dest, (voidpf)source, sizeof(z_stream));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1286:27: warning: Root cause for 95 unchecked pointers: Default void* type
+    zmemcpy((voidpf)dest, (voidpf)source, sizeof(z_stream));
+                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1291:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds, (voidpf)ss, sizeof(deflate_state));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1291:25: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds, (voidpf)ss, sizeof(deflate_state));
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1305:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(ds->window, ss->window, ds->w_size * 2 * sizeof(Byte));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1305:25: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(ds->window, ss->window, ds->w_size * 2 * sizeof(Byte));
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1306:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds->prev, (voidpf)ss->prev, ds->w_size * sizeof(Pos));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1306:31: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds->prev, (voidpf)ss->prev, ds->w_size * sizeof(Pos));
+                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1307:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds->head, (voidpf)ss->head, ds->hash_size * sizeof(Pos));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1307:31: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)ds->head, (voidpf)ss->head, ds->hash_size * sizeof(Pos));
+                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1308:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(ds->pending_buf, ss->pending_buf, (uInt)ds->pending_buf_size);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1308:30: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy(ds->pending_buf, ss->pending_buf, (uInt)ds->pending_buf_size);
+                             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1667:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->strm->next_out, s->window + s->block_start, left);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1667:40: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->strm->next_out, s->window + s->block_start, left);
+                                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1699:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->window, s->strm->next_in - s->w_size, s->w_size);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1699:32: warning: Root cause for 21 unchecked pointers: Default void* type
+            zmemcpy(s->window, s->strm->next_in - s->w_size, s->w_size);
+                               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1707:25: warning: Root cause for 206 unchecked pointers: Default void* type
+                zmemcpy(s->window, s->window + s->w_size, s->strstart);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1707:36: warning: Root cause for 206 unchecked pointers: Default void* type
+                zmemcpy(s->window, s->window + s->w_size, s->strstart);
+                                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1713:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(s->window + s->strstart, s->strm->next_in - used, used);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1713:46: warning: Root cause for 21 unchecked pointers: Default void* type
+            zmemcpy(s->window + s->strstart, s->strm->next_in - used, used);
+                                             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1737:17: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(s->window, s->window + s->w_size, s->strstart);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1737:28: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(s->window, s->window + s->w_size, s->strstart);
+                           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1770:29: warning: Root cause for 206 unchecked pointers: Cast from Bytef * to charf *
+        _tr_stored_block(s, (charf *)s->window + s->block_start, len, last);
+                            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1867:21: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        if (bflush) FLUSH_BLOCK(s, 0);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1871:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 1);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1875:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 0);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1967:25: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+            if (bflush) FLUSH_BLOCK(s, 0);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1977:17: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+                FLUSH_BLOCK_ONLY(s, 0);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:1999:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 1);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2003:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 0);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2068:21: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        if (bflush) FLUSH_BLOCK(s, 0);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2072:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 1);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2076:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 0);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2104:21: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        if (bflush) FLUSH_BLOCK(s, 0);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2108:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 1);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c:2112:9: warning: Root cause for 207 unchecked pointers: Cast from Bytef * to charf *
+        FLUSH_BLOCK(s, 0);
+        ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c:6:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzguts.h:20:
+/usr/include/stdio.h:378:12: warning: Root cause for 4 unchecked pointers: Declaration in non-writable file
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+           ^
+/usr/include/stdio.h:382:12: warning: Root cause for 22 unchecked pointers: Declaration in non-writable file
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+           ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c:6:
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzguts.h:31:
+/usr/include/fcntl.h:181:12: warning: Root cause for 4 unchecked pointers: Declaration in non-writable file
+extern int open (const char *__file, int __oflag, ...) __nonnull ((1));
+           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:85:34: warning: Root cause for 4 unchecked pointers: Default void* type
+local gzFile gz_open(const void *path, int fd, const char *mode) {
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:130:22: warning: Root cause for 105 unchecked pointers: Default void* type
+                free(state);
+                     ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:167:14: warning: Root cause for 105 unchecked pointers: Default void* type
+        free(state);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:174:18: warning: Root cause for 105 unchecked pointers: Default void* type
+            free(state);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:190:27: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    state->path = (char *)malloc(len + 1);
+                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:192:14: warning: Root cause for 105 unchecked pointers: Default void* type
+        free(state);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:237:14: warning: Root cause for 1 unchecked pointer: Default void* type
+        free(state->path);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:238:14: warning: Root cause for 105 unchecked pointers: Default void* type
+        free(state);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:261:20: warning: Root cause for 1 unchecked pointer: Default void* type
+    return gz_open(path, -1, mode);
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:266:20: warning: Root cause for 1 unchecked pointer: Default void* type
+    return gz_open(path, -1, mode);
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:274:37: warning: Root cause for 1 unchecked pointer: Unsafe call to allocator function.
+    if (fd == -1 || (path = (char *)malloc(7 + 3 * sizeof(int))) == NULL)
+                                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:281:18: warning: Root cause for 1 unchecked pointer: Default void* type
+    gz = gz_open(path, fd, mode);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:282:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(path);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:533:18: warning: Root cause for 2 unchecked pointers: Default void* type
+            free(state->msg);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c:551:31: warning: Root cause for 2 unchecked pointers: Unsafe call to allocator function.
+    if ((state->msg = (char *)malloc(strlen(state->path) + strlen(msg) + 3)) ==
+                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:268:47: warning: Root cause for 206 unchecked pointers: Default void* type
+local z_size_t gz_read(gz_statep state, voidp buf, z_size_t len) {
+                                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:345:39: warning: Root cause for 206 unchecked pointers: Default void* type
+int ZEXPORT gzread(gzFile file, voidp buf, unsigned len) {
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:377:32: warning: Root cause for 206 unchecked pointers: Default void* type
+z_size_t ZEXPORT gzfread(voidp buf, z_size_t size, z_size_t nitems, gzFile file) {
+                               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:22:31: warning: Root cause for 1 unchecked pointer: Default void* type
+        ret = read(state->fd, buf + *have, get);
+                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:82:38: warning: Root cause for 21 unchecked pointers: Unsafe call to allocator function.
+        state->in = (unsigned char *)malloc(state->want);
+                                     ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:83:39: warning: Root cause for 206 unchecked pointers: Unsafe call to allocator function.
+        state->out = (unsigned char *)malloc(state->want << 1);
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:85:18: warning: Root cause for 206 unchecked pointers: Default void* type
+            free(state->out);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:86:18: warning: Root cause for 21 unchecked pointers: Default void* type
+            free(state->in);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:99:18: warning: Root cause for 206 unchecked pointers: Default void* type
+            free(state->out);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:100:18: warning: Root cause for 21 unchecked pointers: Default void* type
+            free(state->in);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:143:12: warning: Root cause for 206 unchecked pointers: Default void* type
+    memcpy(state->x.next, strm->next_in, strm->avail_in);
+           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:143:27: warning: Root cause for 21 unchecked pointers: Default void* type
+    memcpy(state->x.next, strm->next_in, strm->avail_in);
+                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:295:25: warning: Root cause for 206 unchecked pointers: Default void* type
+            memcpy(buf, state->x.next, n);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:538:39: warning: Root cause for 206 unchecked pointers: Default void* type
+        eol = (unsigned char *)memchr(state->x.next, '\n', n);
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:543:16: warning: Root cause for 3 unchecked pointers: Default void* type
+        memcpy(buf, state->x.next, n);
+               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:543:21: warning: Root cause for 206 unchecked pointers: Default void* type
+        memcpy(buf, state->x.next, n);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:593:14: warning: Root cause for 206 unchecked pointers: Default void* type
+        free(state->out);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:594:14: warning: Root cause for 21 unchecked pointers: Default void* type
+        free(state->in);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:598:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(state->path);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c:600:10: warning: Root cause for 105 unchecked pointers: Default void* type
+    free(state);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:173:49: warning: Root cause for 21 unchecked pointers: Default void* type
+local z_size_t gz_write(gz_statep state, voidpc buf, z_size_t len) {
+                                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:237:41: warning: Root cause for 21 unchecked pointers: Default void* type
+int ZEXPORT gzwrite(gzFile file, voidpc buf, unsigned len) {
+                                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:261:34: warning: Root cause for 21 unchecked pointers: Default void* type
+z_size_t ZEXPORT gzfwrite(voidpc buf, z_size_t size, z_size_t nitems,
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:359:66: warning: Root cause for 1 unchecked pointer: Variable number of arguments.
+int ZEXPORTVA gzvprintf(gzFile file, const char *format, va_list va) {
+                                                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:431:13: warning: Root cause for 3 unchecked pointers: Variable number of arguments.
+    va_list va;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:16:34: warning: Root cause for 21 unchecked pointers: Unsafe call to allocator function.
+    state->in = (unsigned char *)malloc(state->want << 1);
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:25:39: warning: Root cause for 206 unchecked pointers: Unsafe call to allocator function.
+        state->out = (unsigned char *)malloc(state->want);
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:27:18: warning: Root cause for 21 unchecked pointers: Default void* type
+            free(state->in);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:39:18: warning: Root cause for 206 unchecked pointers: Default void* type
+            free(state->out);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:40:18: warning: Root cause for 21 unchecked pointers: Default void* type
+            free(state->in);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:78:37: warning: Root cause for 21 unchecked pointers: Default void* type
+            writ = write(state->fd, strm->next_in, put);
+                                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:108:41: warning: Root cause for 206 unchecked pointers: Default void* type
+                writ = write(state->fd, state->x.next, put);
+                                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:158:20: warning: Root cause for 21 unchecked pointers: Default void* type
+            memset(state->in, 0, n);
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:204:20: warning: Root cause for 21 unchecked pointers: Default void* type
+            memcpy(state->in + have, buf, copy);
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:392:12: warning: Root cause for 22 unchecked pointers: Cast from unsigned char * to char *
+    next = (char *)(state->in + (strm->next_in - state->in) + strm->avail_in);
+           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:423:17: warning: Root cause for 21 unchecked pointers: Default void* type
+        memmove(state->in, state->in + state->size, left);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:423:28: warning: Root cause for 21 unchecked pointers: Default void* type
+        memmove(state->in, state->in + state->size, left);
+                           ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:621:18: warning: Root cause for 206 unchecked pointers: Default void* type
+            free(state->out);
+                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:623:14: warning: Root cause for 21 unchecked pointers: Default void* type
+        free(state->in);
+             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:626:10: warning: Root cause for 1 unchecked pointer: Default void* type
+    free(state->path);
+         ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c:629:10: warning: Root cause for 105 unchecked pointers: Default void* type
+    free(state);
+         ^
+In file included from /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:15:
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.h:119:15: warning: Root cause for 11 unchecked pointers: Bad pointer type solution
+    code FAR *next;             /* next available space in codes[] */
+              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:242:49: warning: Root cause for 3 unchecked pointers: Default void* type
+int ZEXPORT inflateBack(z_streamp strm, in_func in, void FAR *in_desc,
+                                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:242:63: warning: Root cause for 3 unchecked pointers: Default void* type
+int ZEXPORT inflateBack(z_streamp strm, in_func in, void FAR *in_desc,
+                                                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:243:34: warning: Root cause for 3 unchecked pointers: Default void* type
+                        out_func out, void FAR *out_desc) {
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:243:49: warning: Root cause for 3 unchecked pointers: Default void* type
+                        out_func out, void FAR *out_desc) {
+                                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:245:32: warning: Root cause for 21 unchecked pointers: Bad pointer type solution
+    z_const unsigned char FAR *next;    /* next input */
+                               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:42:24: warning: Root cause for 206 unchecked pointers: Default void* type
+        strm->opaque = (voidpf)0;
+                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:55:19: warning: Root cause for 206 unchecked pointers: Cast from struct inflate_state * to struct internal_state *
+    strm->state = (struct internal_state FAR *)state;
+                  ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:262:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:334:25: warning: Root cause for 206 unchecked pointers: Default void* type
+                zmemcpy(put, next, copy);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:334:30: warning: Root cause for 21 unchecked pointers: Default void* type
+                zmemcpy(put, next, copy);
+                             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c:624:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    ZFREE(strm, strm->state);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inffast.c:78:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:99:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:110:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:134:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:147:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:168:9: warning: Root cause for 206 unchecked pointers: Default void* type
+        ZFREE(strm, state->window);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:193:24: warning: Root cause for 206 unchecked pointers: Default void* type
+        strm->opaque = (voidpf)0;
+                       ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:206:19: warning: Root cause for 206 unchecked pointers: Cast from struct inflate_state * to struct internal_state *
+    strm->state = (struct internal_state FAR *)state;
+                  ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:212:9: warning: Root cause for 206 unchecked pointers: Default void* type
+        ZFREE(strm, state);
+        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:229:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:372:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:391:17: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(state->window, end - state->wsize, state->wsize);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:391:32: warning: Root cause for 1 unchecked pointer: Default void* type
+        zmemcpy(state->window, end - state->wsize, state->wsize);
+                               ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:398:17: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(state->window + state->wnext, end - copy, dist);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:398:47: warning: Root cause for 1 unchecked pointer: Default void* type
+        zmemcpy(state->window + state->wnext, end - copy, dist);
+                                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:401:21: warning: Root cause for 206 unchecked pointers: Default void* type
+            zmemcpy(state->window, end - copy, copy);
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:401:36: warning: Root cause for 1 unchecked pointer: Default void* type
+            zmemcpy(state->window, end - copy, copy);
+                                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:614:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:734:33: warning: Root cause for 1 unchecked pointer: Default void* type
+                        zmemcpy(state->head->extra + len, next,
+                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:734:59: warning: Root cause for 21 unchecked pointers: Default void* type
+                        zmemcpy(state->head->extra + len, next,
+                                                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:887:25: warning: Root cause for 206 unchecked pointers: Default void* type
+                zmemcpy(put, next, copy);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:887:30: warning: Root cause for 21 unchecked pointers: Default void* type
+                zmemcpy(put, next, copy);
+                             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1270:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1271:34: warning: Root cause for 206 unchecked pointers: Default void* type
+    if (state->window != Z_NULL) ZFREE(strm, state->window);
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1272:5: warning: Root cause for 206 unchecked pointers: Default void* type
+    ZFREE(strm, strm->state);
+    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1284:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1288:17: warning: Root cause for 1 unchecked pointer: Default void* type
+        zmemcpy(dictionary, state->window + state->wnext,
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1288:29: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(dictionary, state->window + state->wnext,
+                            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1290:17: warning: Root cause for 1 unchecked pointer: Default void* type
+        zmemcpy(dictionary + state->whave - state->wnext,
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1291:17: warning: Root cause for 206 unchecked pointers: Default void* type
+                state->window, state->wnext);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1306:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1335:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1384:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1435:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1448:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)source->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1459:13: warning: Root cause for 206 unchecked pointers: Default void* type
+            ZFREE(source, copy);
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1465:13: warning: Root cause for 95 unchecked pointers: Default void* type
+    zmemcpy((voidpf)dest, (voidpf)source, sizeof(z_stream));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1465:27: warning: Root cause for 95 unchecked pointers: Default void* type
+    zmemcpy((voidpf)dest, (voidpf)source, sizeof(z_stream));
+                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1466:13: warning: Root cause for 206 unchecked pointers: Default void* type
+    zmemcpy((voidpf)copy, (voidpf)state, sizeof(struct inflate_state));
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1466:27: warning: Root cause for 207 unchecked pointers: Default void* type
+    zmemcpy((voidpf)copy, (voidpf)state, sizeof(struct inflate_state));
+                          ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1476:17: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(window, state->window, wsize);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1476:25: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(window, state->window, wsize);
+                        ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1479:19: warning: Root cause for 206 unchecked pointers: Cast from struct inflate_state * to struct internal_state *
+    dest->state = (struct internal_state FAR *)copy;
+                  ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1487:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1502:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1515:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c:1524:13: warning: Root cause for 207 unchecked pointers: Cast from struct internal_state * to struct inflate_state *
+    state = (struct inflate_state FAR *)strm->state;
+            ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c:865:17: warning: Root cause for 206 unchecked pointers: Default void* type
+        zmemcpy(s->pending_buf + s->pending, (Bytef *)buf, stored_len);
+                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c:865:46: warning: Root cause for 1 unchecked pointer: Cast from charf * to Bytef *
+        zmemcpy(s->pending_buf + s->pending, (Bytef *)buf, stored_len);
+                                             ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c:47:21: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.zalloc = (alloc_func)0;
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c:48:20: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.zfree = (free_func)0;
+                   ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c:49:21: warning: Root cause for 206 unchecked pointers: Default void* type
+    stream.opaque = (voidpf)0;
+                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:286:37: warning: Root cause for 206 unchecked pointers: Default void* type
+voidpf ZLIB_INTERNAL zcalloc(voidpf opaque, unsigned items, unsigned size) {
+                                    ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:286:22: warning: Root cause for 206 unchecked pointers: Default void* type
+voidpf ZLIB_INTERNAL zcalloc(voidpf opaque, unsigned items, unsigned size) {
+                     ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:292:34: warning: Root cause for 206 unchecked pointers: Default void* type
+void ZLIB_INTERNAL zcfree(voidpf opaque, voidpf ptr) {
+                                 ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:292:49: warning: Root cause for 206 unchecked pointers: Default void* type
+void ZLIB_INTERNAL zcfree(voidpf opaque, voidpf ptr) {
+                                                ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:288:39: warning: Root cause for 206 unchecked pointers: Unsafe call to allocator function.
+    return sizeof(uInt) > 2 ? (voidpf)malloc(items * size) :
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:288:31: warning: Root cause for 206 unchecked pointers: Default void* type
+    return sizeof(uInt) > 2 ? (voidpf)malloc(items * size) :
+                              ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:289:39: warning: Root cause for 206 unchecked pointers: Unsafe call to allocator function.
+                              (voidpf)calloc(items, size);
+                                      ^
+/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c:289:31: warning: Root cause for 206 unchecked pointers: Default void* type
+                              (voidpf)calloc(items, size);
+                              ^
+Summary
+TotalConstraints|TotalPtrs|TotalNTArr|TotalArr|TotalWild
+581|133|0|80|368
+NumPointersNeedBounds:93,
+NumNTNoBounds:0,
+Details:
+Invalid:0
+,BoundsFound:
+Array Bounds Inference Stats:
+NamePrefixMatch:0
+AllocatorMatch:0
+VariableNameMatch:1
+NeighbourParamMatch:3
+DataflowMatch:21
+Declared:39
+DeclaredButNotHandled:0
+TimeStats
+TotalTime:1.803430e+01
+ConstraintBuilderTime:8.338307e+00
+ConstraintSolverTime:9.077300e-01
+ArrayBoundsInferenceTime:3.451700e-01
+RewritingTime:3.005289e+00
+ReWriteStats
+NumAssumeBoundsCasts:44
+NumCheckedCasts:0
+NumWildCasts:0
+NumFixedCasts:42
+NumITypes:588
+NumCheckedRegions:0
+NumUnCheckedRegions:0

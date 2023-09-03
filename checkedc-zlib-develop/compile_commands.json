@@ -1,0 +1,172 @@
+[
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/adler32.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/compress.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/crc32.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/deflate.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/gzclose.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/gzlib.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/gzread.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/gzwrite.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/inflate.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/infback.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/inftrees.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inftrees.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inftrees.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/inffast.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inffast.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inffast.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/trees.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/uncompr.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -DZLIB_DLL -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -fPIC -o CMakeFiles/zlib.dir/zutil.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/adler32.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/adler32.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/compress.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/compress.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/crc32.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/crc32.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/deflate.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/deflate.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/gzclose.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzclose.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/gzlib.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzlib.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/gzread.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzread.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/gzwrite.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/gzwrite.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/inflate.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inflate.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/infback.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/infback.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/inftrees.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inftrees.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inftrees.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/inffast.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inffast.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/inffast.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/trees.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/trees.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/uncompr.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/uncompr.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/zlibstatic.dir/zutil.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/zutil.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/example.dir/test/example.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/example.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/example.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop  -o CMakeFiles/minigzip.dir/test/minigzip.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/minigzip.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/minigzip.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -D_FILE_OFFSET_BITS=64 -o CMakeFiles/example64.dir/test/example.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/example.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/example.c"
+},
+{
+  "directory": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop",
+  "command": "/usr/bin/cc -D_LARGEFILE64_SOURCE=1 -I/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop -D_FILE_OFFSET_BITS=64 -o CMakeFiles/minigzip64.dir/test/minigzip.c.o -c /mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/minigzip.c",
+  "file": "/mnt/d/PLT/HW/3c_CheckedC/Test/benchmark/checkedc-zlib-develop/test/minigzip.c"
+}
+]
