@@ -21,14 +21,17 @@ _Ptr<int> k = ((void *)0);
 	z = y+1;
 	//k = z+1;
 	x = f(x, 1);
+	_Unchecked { printf("%d %d %d\n", *x,*y,*z); };
 	y = f(y, 1);
+	_Unchecked { printf("%d %d %d\n", *x,*y,*z); };
 	z = f(z, 1);
+	_Unchecked { printf("%d %d %d\n", *x,*y,*z); };
 	//k = f(k, 1);
-	_Unchecked { printf("%d%d%d\n", *x,*y,*z); };
+	_Unchecked { printf("%d %d %d\n", *x,*y,*z); };
 
 
 	int b = 5;
-	//x = f(&b, 0);
+	x = f(_Assume_bounds_cast<_Array_ptr<int>>(&b,  count(3)), 0);
 	_Unchecked { printf("%d\n", *x); };
 
 	_Unchecked { printf("all ok\n"); };

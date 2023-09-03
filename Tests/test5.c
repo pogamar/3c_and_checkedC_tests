@@ -27,7 +27,7 @@ int main()
 
 
 	int b = 5;
-	//x = f(&b, 0);
+	x = f(&b, 0);
 	printf("%d\n", *x);
 
 	printf("all ok\n");
